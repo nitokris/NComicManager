@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: NComicManager
+  jackson:
+    default-property-inclusion: non_null
+server:
+  port: 8803
