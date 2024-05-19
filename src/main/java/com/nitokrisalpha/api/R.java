@@ -20,4 +20,8 @@ public class R<T> {
     public static R<Void> error(int code, String message) {
         return new R<>(code, message);
     }
+
+    public static R<Void> success() {
+        return new R<>(200, "处理成功");
+    }
 }

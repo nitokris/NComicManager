@@ -3,5 +3,9 @@ spring:
     name: NComicManager
   jackson:
     default-property-inclusion: non_null
+  profiles:
+    active: dev
 server:
   port: 8803
+
+
