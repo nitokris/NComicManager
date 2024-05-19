@@ -1,0 +1,2 @@
+# NComicManager
+NComicManager
